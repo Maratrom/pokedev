@@ -7,11 +7,13 @@ import Pokemons from './views/Pokemons/Pokemons'
 import PokemonsForType from './views/PokemonsForType/PokemonsForTyp'
 import PokemonsSearchResult from './views/PokemonsSearchResult/PokemonsSearchResult'
 import Types from './views/Types/Types'
+import Header from './components/Header/Header'
 
 export default function App() {
 
   return (
     <>
+      <Header />
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/fight' element={<Fight />}></Route>
