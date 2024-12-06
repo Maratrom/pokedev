@@ -1,0 +1,13 @@
+.types {
+    display: flex;
+    flex-direction: column;
+
+    &-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 70vw;
+        align-self: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,14 @@
+.section-link {
+    all: unset;
+    cursor: pointer;
+
+}
+
+.random-team {
+    display: flex;
+    flex-direction: column;
+    .pokemons {
+        width: 60%;
+        align-self: center;
+    }
+}

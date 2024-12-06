@@ -21,8 +21,8 @@ export default function Header() {
             <header>
                 <nav>
                     <ul>
-                        <li>
-                            <Link to='/'><img src={logo} className='logo' /></Link>
+                        <li className='visu'>
+                            <Link to='/'><img src={logo} className='logo' /><span className="title">Pokedev</span></Link>
                         </li>
                         <li>
                             <Link to='/fight'><p>Fight</p></Link>
@@ -34,10 +34,7 @@ export default function Header() {
                             <Link to='/pokemons'><p>All Pokemons</p></Link>
                         </li>
                         <li>
-                            <Link to='/pokemons-for-type'><p>Pokemons for specific type</p></Link>
-                        </li>
-                        <li>
-                            <Link to='/types'><p>Pokemon Types</p></Link>
+                            <Link to='/types'><p>Types</p></Link>
                         </li>
                     </ul>
                     <form method="GET" onSubmit={(event) => handleSubmitForm(event)}>

@@ -1,0 +1,58 @@
+.pokemon {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 13px;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    align-items: center;
+
+
+    &-identification {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0px;
+
+
+        >* {
+            margin: 10px;
+        }
+    }
+
+    &-image {
+        width: 15vw;
+        border-radius: 13px;
+    }
+
+    &-types {
+        &-image {
+            height: 80px;
+        }
+    }
+
+    &-stats {
+        align-self: flex-start;
+        padding: 6px 0;
+        box-shadow:
+            0 -6px #141414,
+            6px 0 #141414,
+            -4px 4px 4px -2px #FFF;
+        border-radius: 13px;
+
+        [class^="pokemon-stats-"] {
+            margin: 10px;
+        }
+    }
+
+    .link {
+        all: unset;
+        cursor: pointer;
+    }
+
+    .inactive-link {
+        cursor: default;
+    }
+
+}
