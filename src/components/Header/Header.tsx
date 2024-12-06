@@ -22,22 +22,22 @@ export default function Header() {
                 <nav>
                     <ul>
                         <li>
-                            <Link to='/'><img src={logo} className='logo'/></Link>
+                            <Link to='/'><img src={logo} className='logo' /></Link>
                         </li>
                         <li>
-                            <Link to='/fight'>Fight</Link>
+                            <Link to='/fight'><p>Fight</p></Link>
                         </li>
                         <li>
-                            <Link to='/pokemon-random'>Random Pokemon</Link>
+                            <Link to='/pokemon-random'><p>Random Pokemon</p></Link>
                         </li>
                         <li>
-                            <Link to='/pokemons'>All Pokemons</Link>
+                            <Link to='/pokemons'><p>All Pokemons</p></Link>
                         </li>
                         <li>
-                            <Link to='/pokemons-for-type'>Pokemons for specific type</Link>
+                            <Link to='/pokemons-for-type'><p>Pokemons for specific type</p></Link>
                         </li>
                         <li>
-                            <Link to='/types'>Pokemon Types</Link>
+                            <Link to='/types'><p>Pokemon Types</p></Link>
                         </li>
                     </ul>
                     <form method="GET" onSubmit={(event) => handleSubmitForm(event)}>

@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import './App.css'
+import './App.scss'
 import Fight from './views/Fight/Fight'
 import Home from './views/Home/Home'
 import PokemonRandom from './views/PokemonRandom/PokemonRandom'
